@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Surendra Bhujel — BIT Student & Aspiring Web Developer. Explore my portfolio, skills, and get in touch.">
+    <meta name="keywords" content="Surendra Bhujel, portfolio, web developer, BIT student, Nepal">
+    <meta name="author" content="Surendra Bhujel">
+    <title>Surendra Bhujel | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div id="preloader" class="preloader">
+        <div class="loader">
+            <span class="loader-letter">S</span>
+            <span class="loader-letter">B</span>
+        </div>
+    </div>
+
+    <!-- ===== CURSOR GLOW (desktop) ===== -->
+    <div id="cursor-glow" class="cursor-glow"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <header id="navbar" class="navbar">
+        <a href="#hero" class="logo" aria-label="Surendra Bhujel home">
+            <span class="logo-text">S<span class="logo-accent">.</span>B</span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+            <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+            <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I&rsquo;m</p>
+                <h1 class="hero-name">Surendra<br><span class="gradient-text">Bhujel</span></h1>
+                <p class="hero-tagline">
+                    A 2<sup>nd</sup>&nbsp;Year <strong>BIT Student</strong> &amp; aspiring
+                    <span class="typed-wrapper">
+                        <span id="typed-text" class="typed-text"></span><span class="cursor-blink">|</span>
+                    </span>
+                </p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary" id="btn-view-work">
+                        <span>View My Work</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline" id="btn-contact">
+                        <span>Get in Touch</span>
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/Surendra-Bhujel" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/surendra-bhujel" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/surendra.bhujel" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="assets/images/hero-profile.png" alt="Surendra Bhujel portrait" loading="eager" width="420" height="420">
+                    <div class="image-ring"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+            <span class="scroll-mouse">
+                <span class="scroll-dot"></span>
+            </span>
+            <span class="scroll-label">Scroll</span>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-aos><span class="gradient-text">About</span> Me</h2>
+            <div class="about-grid">
+                <div class="about-text" data-aos>
+                    <p>
+                        I&rsquo;m <strong>Surendra Bhujel</strong>, a passionate 2<sup>nd</sup>&nbsp;year
+                        Bachelor of Information Technology (BIT) student based in Nepal. I love turning ideas
+                        into elegant, functional digital experiences.
+                    </p>
+                    <p>
+                        My journey in tech started with curiosity about how websites work,
+                        which quickly grew into a deep passion for front-end development, UI design,
+                        and problem-solving. When I&rsquo;m not coding, you&rsquo;ll find me exploring new
+                        technologies, contributing to open-source, or working on personal projects.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card" data-aos>
+                            <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-card" data-aos>
+                            <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Technologies Learned</span>
+                        </div>
+                        <div class="stat-card" data-aos>
+                            <span class="stat-number" data-count="2">0</span>
+                            <span class="stat-label">Years of Study</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-details" data-aos>
+                    <ul class="info-list">
+                        <li><i class="fa-solid fa-user"></i><strong>Name:</strong> Surendra Bhujel</li>
+                        <li><i class="fa-solid fa-cake-candles"></i><strong>Age:</strong> 21</li>
+                        <li><i class="fa-solid fa-graduation-cap"></i><strong>Degree:</strong> BIT (2<sup>nd</sup> Year)</li>
+                        <li><i class="fa-solid fa-location-dot"></i><strong>Location:</strong> Nepal</li>
+                        <li><i class="fa-solid fa-envelope"></i><strong>Email:</strong> surendra.bhujel@email.com</li>
+                        <li><i class="fa-solid fa-language"></i><strong>Languages:</strong> Nepali, English, Hindi</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" id="btn-hire-me">
+                        <span>Hire Me</span><i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-aos><span class="gradient-text">My</span> Skills</h2>
+            <div class="skills-grid">
+                <!-- Skill Card -->
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="90"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="85"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="75"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                    <h3>Python</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="65"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                    <h3>React</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="55"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>MySQL</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="70"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                    <h3>Git &amp; GitHub</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill-card" data-aos>
+                    <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+                    <h3>Figma</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-percent="60"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title" data-aos><span class="gradient-text">My</span> Portfolio</h2>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-aos>
+                    <div class="project-image">
+                        <img src="assets/images/project-1.png" alt="E-Commerce Website project" loading="lazy" width="600" height="400">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link" aria-label="View source code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>A responsive online store with product listings, cart functionality and smooth checkout experience.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 2 -->
+                <article class="project-card" data-aos>
+                    <div class="project-image">
+                        <img src="assets/images/project-2.png" alt="Fitness Tracker App project" loading="lazy" width="600" height="400">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link" aria-label="View source code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Tracker App</h3>
+                        <p>A mobile-first fitness tracker UI with workout logging, progress charts, and goal tracking.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>CSS</span><span>API</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 3 -->
+                <article class="project-card" data-aos>
+                    <div class="project-image">
+                        <img src="assets/images/project-3.png" alt="Analytics Dashboard project" loading="lazy" width="600" height="400">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link" aria-label="View source code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>An interactive analytics dashboard with real-time data visualization, filters, and export options.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span><span>Chart.js</span><span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-aos><span class="gradient-text">Get In</span> Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos>
+                    <p class="contact-intro">
+                        Have a project in mind or just want to say hello? Feel free to reach out.
+                        I&rsquo;m always open to discussing new ideas and opportunities!
+                    </p>
+                    <ul class="contact-details">
+                        <li>
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:surendra.bhujel@email.com">surendra.bhujel@email.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:+9779800000000">+977 9800000000</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Kathmandu, Nepal</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="contact-socials">
+                        <a href="https://github.com/Surendra-Bhujel" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/surendra-bhujel" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/surendra.bhujel" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" data-aos>
+                    <div class="form-group">
+                        <input type="text" id="form-name" name="name" placeholder=" " required>
+                        <label for="form-name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="form-email" name="email" placeholder=" " required>
+                        <label for="form-email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="form-subject" name="subject" placeholder=" ">
+                        <label for="form-subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="form-message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="form-message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit" id="btn-send-message">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#hero" class="footer-logo">S<span class="logo-accent">.</span>B</a>
+            <p>&copy; 2026 Surendra Bhujel. All rights reserved.</p>
+            <button class="back-to-top" id="backToTop" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
