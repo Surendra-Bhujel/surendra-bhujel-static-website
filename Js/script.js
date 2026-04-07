@@ -68,7 +68,7 @@
 
     // ——— Typing Effect ———
     const typedEl = document.getElementById("typed-text");
-    const words = ["Web Developer.", "UI Designer.", "Tech Enthusiast.", "Problem Solver."];
+    const words = ["Web Developer.", "IT Undergraduate.", "Tech Support Enthusiast.", "Problem Solver."];
     let wordIdx = 0;
     let charIdx = 0;
     let deleting = false;
